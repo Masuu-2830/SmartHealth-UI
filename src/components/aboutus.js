@@ -26,7 +26,10 @@ function AboutUs() {
           </h4>
         </div>
       </div>
-      <div className="row">
+      <div>
+        <h2>Our Team: </h2>
+      </div>
+      <div className="row" style={{ marginTop: 50 }}>
         <Card className="col-12 col-sm-4">
           <CardImg top height="400" width="100%" src={logo1} alt="Masood" />
           <CardBody style={{ textAlign: "center" }}>
